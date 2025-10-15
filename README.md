@@ -103,6 +103,18 @@ python biblioteca.py
 ![Menu principal](Captura/Terminal.png)
 
 ---
+###  Tabla del proyecto y mejoras
+
+| **Aspecto** | **Descripción actual** | **Mejoras realizadas** |
+|--------------|-------------------------|--------------------------|
+| **Estructura** | Código organizado en clases (`Libro`, `Usuario`, `Prestamo`, `ConexionBD`). | Aplicación de POO para mayor orden y reutilización. |
+| **Conexión BD** | Clase única para conectar y ejecutar consultas en MySQL. | Se centralizó la conexión y se añadieron controles de error. |
+| **Libros** | Permite registrar, listar y actualizar títulos. | Se agregó la actualización de título y control de disponibilidad. |
+| **Usuarios** | Registra alumnos y profesores. | Se añadió campo *tipo* y listado de usuarios. |
+| **Préstamos** | Registra, devuelve y lista préstamos. | Validación de disponibilidad y registro automático de fechas. |
+| **Interfaz** | Menú en consola con opciones numeradas. | Se mejoró la navegación y validación de entradas. |
+| **Base de datos** | Tablas relacionadas (`libros`, `usuarios`, `prestamos`). | Uso de claves foráneas y persistencia de datos. |
+
 ## Conceptos aplicados
 
 - **Programación Orientada a Objetos (clases: ```Libro```, ```Usuario```, ```Prestamo```, ```ConexionBD```)**
